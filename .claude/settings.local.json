@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(hugo version:*)",
+      "Bash(git --version)",
+      "Bash(hugo new:*)",
+      "Bash(git init:*)",
+      "Bash(git submodule add:*)",
+      "Bash(hugo:*)",
+      "Bash(gh auth:*)",
+      "Bash(curl:*)",
+      "Bash(sudo dd:*)",
+      "Bash(sudo tee:*)",
+      "Bash(sudo apt-get update:*)",
+      "Bash(sudo apt-get install:*)",
+      "Bash(gh:*)",
+      "Bash(git -C /home/admin/projects add:*)",
+      "Bash(git -C /home/admin/projects commit:*)",
+      "Bash(git config:*)",
+      "Bash(git -C /home/admin/projects branch:*)"
+    ]
+  }
+}
