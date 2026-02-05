@@ -1,0 +1,23 @@
+backend:
+  name: github
+  repo: GrumpyYorkshireBloke/Phylly.com
+  branch: main
+  auth_type: pkce
+  app_id: Ov23liFho5jJAjtLl1WW
+
+media_folder: static/images
+public_folder: /images
+
+collections:
+  - name: posts
+    label: Posts
+    folder: content/posts
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Summary", name: "summary", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
