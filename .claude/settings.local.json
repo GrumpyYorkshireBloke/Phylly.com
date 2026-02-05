@@ -17,7 +17,29 @@
       "Bash(git -C /home/admin/projects add:*)",
       "Bash(git -C /home/admin/projects commit:*)",
       "Bash(git config:*)",
-      "Bash(git -C /home/admin/projects branch:*)"
+      "Bash(git -C /home/admin/projects branch:*)",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)",
+      "Bash(git -C /home/admin/projects remote:*)",
+      "Bash(git -C /home/admin/projects remote add:*)",
+      "Bash(git -C /home/admin/projects push -u origin main)",
+      "Bash(git -C /home/admin/projects push)",
+      "Bash(dig:*)",
+      "Bash(git branch:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git -C /home/admin/cock.beer commit --allow-empty -m \"Trigger deploy\")",
+      "Bash(git -C /home/admin/cock.beer push)",
+      "Bash(git -C /home/admin/cock.beer commit --allow-empty -m \"Retry deploy\")",
+      "Bash(git -C /home/admin/cock.beer add content/posts/white-rat-ossett-brewery.md)",
+      "Bash(git -C /home/admin/cock.beer commit -m \"$\\(cat <<''EOF''\nAdd White Rat beer review\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git -C /home/admin/cock.beer add:*)",
+      "Bash(git -C /home/admin/cock.beer commit -m \"$\\(cat <<''EOF''\nRename site to Consumers of Cask & Keg Beer\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git -C /home/admin/cock.beer commit -m \"$\\(cat <<''EOF''\nUpdate welcome post to match new site name\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git -C /home/admin/cock.beer commit -m \"$\\(cat <<''EOF''\nAdd CLAUDE.md with project guidance\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git -C /home/admin/cock.beer commit -m \"$\\(cat <<''EOF''\nAdd Decap CMS admin panel\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "WebFetch(domain:unpkg.com)",
+      "Bash(git -C /home/admin/cock.beer commit:*)"
     ]
   }
 }
